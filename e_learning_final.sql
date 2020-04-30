@@ -22,6 +22,15 @@ SET time_zone = "+00:00";
 -- Database: `e_learning_final`
 --
 
+/*DELIMITER $$
+--
+-- Procedures
+--
+CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllUserEmail` ()  BEGIN
+	SELECT email  FROM user;
+END$$
+
+DELIMITER */;
 
 
 -- --------------------------------------------------------
